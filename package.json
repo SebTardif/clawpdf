@@ -5,6 +5,7 @@
   "type": "module",
   "sideEffects": false,
   "license": "MIT",
+  "author": "OpenClaw Team <dev@openclaw.ai>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/openclaw/clawpdf.git"
@@ -53,6 +54,9 @@
   },
   "engines": {
     "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "packageManager": "pnpm@11.27.1"
 }
